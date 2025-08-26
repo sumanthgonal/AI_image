@@ -1,0 +1,1 @@
+Place screenshots of CI runs, PRs, and AI prompts here.

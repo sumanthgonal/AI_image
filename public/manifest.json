@@ -1,0 +1,9 @@
+{
+  "name": "AI Studio Mock",
+  "short_name": "AI Studio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#111827",
+  "icons": []
+}
