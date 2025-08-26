@@ -3,5 +3,53 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom animations */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s linear infinite;
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 0px,
+    #e0e0e0 40px,
+    #f0f0f0 80px
+  );
+  background-size: 200px;
+}
+
+.dark .animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    #374151 0px,
+    #4b5563 40px,
+    #374151 80px
+  );
+}
+
+/* Smooth focus transitions */
+.focus-ring {
+  @apply focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:outline-none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 :root { color-scheme: light dark; }
 *:focus-visible { outline: 3px solid #2563eb; outline-offset: 2px; }
