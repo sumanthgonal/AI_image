@@ -50,7 +50,7 @@ A modern React + TypeScript web app that simulates a sophisticated AI image gene
 - **🔄 Progress Indicators**: Visual feedback during all operations
 
 ## 🧰 Tech Stack
-
+from this is the things
 **Frontend:**
 - React 18 + TypeScript (strict mode)
 - Vite (build tool & dev server)
