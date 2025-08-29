@@ -275,7 +275,7 @@ export default function App() {
             </div>
           )}
 
-          <footer className="mt-12 text-center text-sm text-gray-500 dark:text-gray-400">
+          <footer className="mt-12 text-center text-sm text-gray-500 dark:text-gray-400">  //from this website i am going to do some things
             <p>Enhanced with drag-and-drop, dark mode, keyboard shortcuts, and improved accessibility</p>
           </footer>
         </main>
